@@ -1,3 +1,5 @@
+// pages/index.tsx
+
 "use client";
 
 import { useState, useEffect } from 'react';
@@ -36,7 +38,7 @@ export default function Home() {
       <div className="flex flex-col lg:flex-row w-full">
         {/* Sección de bienvenida */}
         <div className="bg-gradient-to-r from-blue-800 to-indigo-800 text-white lg:w-1/2 flex flex-col items-center justify-center p-8 lg:p-16">
-          
+          <Image src="/logo.png" alt="Logo" width={150} height={50} className="mb-6 animate-bounce" />
           <h1 className="text-4xl lg:text-5xl font-extrabold mb-4">GBT Summit 2024</h1>
           <div className="text-center">
             <p className="text-2xl lg:text-3xl font-extrabold mb-4">Faltan</p>
@@ -65,7 +67,6 @@ export default function Home() {
 
         {/* Sección de formulario */}
         <div className="lg:w-1/2 bg-white flex flex-col justify-center p-8 lg:p-16 shadow-lg rounded-lg">
-        <Image src="/logo.png" alt="Logo" width={150} height={50} className="mb-6 " />
           <h3 className="text-2xl lg:text-3xl font-semibold text-blue-900 mb-4">{isRegister ? "Registro" : "Iniciar Sesión"}</h3>
           <form className="space-y-4">
             {isRegister && (
