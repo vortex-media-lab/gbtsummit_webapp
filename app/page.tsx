@@ -9,7 +9,7 @@ export default function Home() {
       <div className="relative z-[-1] ">
         <Image
           className="relative z-[-1] "
-          src="/logo.png"
+          src="/logo.svg"
           alt="Next.js Logo"
           width={180}
           height={37}
