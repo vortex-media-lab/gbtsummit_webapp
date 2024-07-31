@@ -1,3 +1,6 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/55682e46-285b-47c2-a92a-b84f080ff313/deploy-status)](https://app.netlify.com/sites/gbtsummit2024/deploys)
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
